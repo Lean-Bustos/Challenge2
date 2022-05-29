@@ -1,0 +1,90 @@
+body {
+  background-color: #e5e5e5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "IBM Plex Sans";
+  align-items: center;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 20px;
+  height: 491px;
+  width: 460px;
+  padding: 50px;
+}
+.close {
+  border-radius: 100%;
+  border: solid 1px #e5e5e5;
+  background-color: transparent;
+  color: #e5e5e5;
+  font-weight: bold;
+  padding: 15px;
+  font-size: 20px;
+}
+.container2 {
+  width: 90%;
+}
+
+h2 {
+  font-family: "Poppins";
+  color: #151a41;
+  font-weight: "700";
+  font-size: 18px;
+  width: 75%;
+  margin-bottom: 30px;
+}
+
+.btn {
+  border: solid 1px #e5e5e5;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.btn-active {
+  background-color: #ff0099;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 11px 15px -10px #151a41;
+}
+
+.satisfaction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.satisfaction__less {
+  width: 30%;
+  flex-wrap: wrap;
+}
+
+.satisfaction__more {
+  width: 30%;
+  flex-wrap: wrap;
+  text-align: right;
+}
+
+.checkbox {
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-bottom: 20px;
+  border: solid 1px #e5e5e5;
+}
+
+.next {
+  background-color: transparent;
+  font-weight: bold;
+  border: solid 1px #e5e5e5;
+  width: 100%;
+  height: 70px;
+  text-transform: uppercase;
+}
